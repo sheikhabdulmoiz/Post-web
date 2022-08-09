@@ -1,0 +1,254 @@
+body {
+    /* background-color: #c42e9f8d; */
+    background-color: #e8e8e8;
+    margin: 15px;
+}
+
+#first_main {
+    /* background-color: #7fca83; */
+    background-color: #e8e8e8;
+    width: 1320PX;
+    height: 800px;
+    margin: 0px auto;
+
+}
+
+#sec_main {
+    /* background-color: #ea954b; */
+    width: 1310PX;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+#sec1_main {
+    /* background-color: #dfbdbd; */
+    background-color: #ffffff;
+    width: 530PX;
+    height: 355px;
+    border-radius: 15px;
+    /* padding: 20px; */
+    position: relative;
+
+
+}
+
+#sec2_main {
+    /* background-color: #cdb8e4; */
+    background-color: #ffffff;
+    width: 530PX;
+    height: 800px;
+    border-radius: 15px;
+
+}
+
+#third_main {
+    /* background-color: aqua; */
+    width: 530PX;
+    height: 400px;
+    border-radius: 15px 15px 0px 0px;
+    /* position: relative; */
+    position: absolute;
+
+
+}
+
+h1 {
+    width: 100px;
+    /* background-color: pink; */
+    margin-left: 10px;
+    margin-top: 10px;
+    /* position: absolute; */
+}
+
+#text_area {
+    /* background-color: rgb(69, 62, 53); */
+    width: 510PX;
+    height: 210px;
+    margin-top: 20px;
+    padding-left: 17px;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+textarea::placeholder {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+textarea {
+    background-color: #ffffff;
+    border-color: #afc2e4;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    position: absolute;
+    margin: 0px auto;
+
+}
+
+textarea:focus {
+
+    outline: none;
+    border-color: #8ca3ca;
+}
+
+#like_post_btns {
+    /* background-color: cadetblue; */
+    /* background-color: #e8e8e8; */
+
+    width: 500px;
+    height: 45px;
+    margin: 0px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#add_btn {
+    background-color: rgb(67, 78, 79);
+    background-color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#post_btn {
+    /* background-color: rgb(48, 43, 60); */
+    /* background-color: #ffffff; */
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#post {
+    width: 150px;
+    height: 38px;
+    border-color: rgb(196, 192, 187);
+    border-radius: 15px;
+    border-width: 2px;
+    font-size: 20px;
+    color: white;
+    background-color: #afc2e4;
+}
+
+#post:active {
+    background-color: #8ca3ca;
+
+}
+
+/* #after_post {
+    display: none;
+} */
+
+#after_post {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background-color: aquamarine; */
+    width: 510px;
+    height: 200px;
+    position: relative;
+}
+
+
+#posted_visible{
+    display: block ;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: aquamarine;
+    width: 510px;
+    height: 200px;
+    position: relative;
+}
+
+/* #after_post1{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(140, 222, 193);
+    width: 500px;
+    height: 200px;
+
+} */
+
+#like_comment_share {
+    background-color: #e8e8e8;
+    width: 510px;
+    height: 45px;
+    margin: 0px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+#post_content{
+    font-size: 22px;
+    background-color: #e8e8e8;
+    border-radius: 15px;
+    padding: 10px;
+    color: #8ca3ca;
+    text-align: j;
+}
+
+#like {
+    width: 150px;
+    height: 38px;
+    border-color: rgb(196, 192, 187);
+    border-radius: 15px;
+    border-width: 2px;
+    font-size: 20px;
+    color: white;
+    background-color: #afc2e4;
+}
+
+#comment {
+    width: 150px;
+    height: 38px;
+    border-color: rgb(196, 192, 187);
+    border-radius: 15px;
+    border-width: 2px;
+    font-size: 20px;
+    color: white;
+    background-color: #afc2e4;
+}
+
+#share {
+    width: 150px;
+    height: 38px;
+    border-color: rgb(196, 192, 187);
+    border-radius: 15px;
+    border-width: 2px;
+    font-size: 20px;
+    color: white;
+    background-color: #afc2e4;
+}
+
+#like:active {
+    background-color: #8ca3ca;
+
+}
+
+#comment:active {
+    background-color: #8ca3ca;
+
+}
+
+#share:active {
+    background-color: #8ca3ca;
+    
+}

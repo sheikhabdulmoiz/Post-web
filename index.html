@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Post Web</title>
+</head>
+
+<body>
+
+    <div id="first_main">
+        <div id="sec_main">
+            <div id="sec1_main">
+                <div id="third_main">
+                    <h1>Posts:</h1>
+                    <div id="text_area">
+                        <form action="">
+                            <textarea id="textarea" value="moiz" cols="45" rows="8"
+                                placeholder="What's in your mind?"></textarea>
+                        </form>
+                    </div>
+                    <div id="like_post_btns">
+                        <div id="add_btn">
+                            <form action="">
+                            <button id="post" onclick="add()">Add File</button>
+                            </form>
+                        </div>
+                        <div id="post_btn">
+                            <button id="post" onclick="post()">Post</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="sec2_main">
+                <div id="after_post">
+                    <div id="after_post1">
+                        <div>
+                            <p id="post_content"></p>
+                        </div>
+                        <!-- <div id="like_comment_share">
+                            <div>
+                                <button id="like" onclick="">Like</button>
+                            </div>
+                            <div id="post_btn">
+                                <button id="comment" onclick="">Comment</button>
+                            </div>
+                            <div>
+                                <button id="share" onclick="">Share</button>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
